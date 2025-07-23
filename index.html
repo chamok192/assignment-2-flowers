@@ -29,34 +29,61 @@
 
 <body class="bg-[rgba(245,248,255,0.5)]">
     <!-- header section  -->
-    <header class="w-[calc(100%-18.75rem)] mx-auto mt-[1.87rem]">
+    <header>
         <!-- navigation section  -->
-        <nav class="flex justify-between items-center">
-            <div class="w-[8.4375rem] h-[5.125rem]">
-                <a href="#"><img class="w-full" src="./images/logo.png" alt=""></a>
+        <nav class="w-[calc(100%-1rem)] mx-auto mt-4 lg:w-[calc(100%-18.75rem)]  flex justify-between items-center">
+            <!-- logo -->
+            <div class="w-[4rem] h-[2.375rem] lg:w-[8.4375rem] lg:h-[5.125rem]">
+                <a href="#"><img class="w-full" src="./images/logo.png" alt="Logo"></a>
             </div>
-            <!-- navigation link  -->
-            <div class="flex gap-12">
-                <div>
+
+            <!-- navigation links & cart -->
+            <div class="flex gap-12 items-center">
+                <!-- navigation link (hidden on mobile) -->
+                <div class="hidden sm:block">
                     <ul class="flex inter-serif text-base gap-12 secondry-color">
-                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">Home</a></li>
-                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">Shop</a></li>
-                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">AboutUs</a></li>
+                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">Home</a>
+                        </li>
+                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">Shop</a>
+                        </li>
+                        <li><a href="#" class="hover:text-black hover:font-bold transition-all duration-200">AboutUs</a>
+                        </li>
                     </ul>
                 </div>
 
-                <!-- cart button  -->
-                <div class="hover:text-black hover:font-bold transition-all duration-200 active:text-black active:font-bold">
-                    <a href="#" class="flex inter-serif text-base">
+                <!-- cart button -->
+                <div
+                    class="hover:text-black hover:font-bold transition-all duration-200 active:text-black active:font-bold">
+                    <a href="#" class="flex inter-serif text-base items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                        </svg><span>Cart($56)</span> </a>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 
+                            14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 
+                            2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 
+                            14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 
+                            0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                        <span>Cart($56)</span>
+                    </a>
                 </div>
             </div>
         </nav>
+        <!-- banner section  -->
+         <section class="mt-[1.75rem] lg:mt-4 lg:w-[calc(100%-18.75rem)] lg:h-[28.8125rem] lg:mx-auto lg:flex lg:flex-row-reverse lg:items-end ">
+            <div class="lg:w-1/2">
+                <img class="lg:w-full lg:h-full" src="./images/hero-flower.png" alt="">
+            </div>
+            <div class="w-[calc(100%-1rem)] mx-auto mt-[1.75rem] lg:w-1/2">
+                <article class="text-2xl font-bold noto-serif lg:text-[3.5rem]">ALWAYS <span class="primary-color">FRESH <br> FLOWERS</span></article>
+                <article class="secondry-color inter-serif lg:text-xl">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                    offer a wide variety of fresh flowers that are perfect for any occasion.
+                </article>
+            </div>
+         </section>
+
     </header>
+
 
     <!-- main content section  -->
     <main>
