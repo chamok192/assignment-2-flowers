@@ -94,14 +94,14 @@
         <!-- plants category section  -->
         <section class="w-[calc(100%-1rem)] mx-auto mt-[2.5rem] lg:w-[calc(100%-18.75rem)]">
             <!-- section title  -->
-            <div class="lg:w-[calc(100%-7.875rem)] lg:mx-auto">
+            <div>
                 <h3 class="noto-serif text-xl font-bold text-center lg:text-[3.5rem]"><span
                         class="primary-color">Our</span> Plants</h3>
-                <article class="text-base secondry-color inter-serif text-center mt-2">
+                <p class="text-base inter-serif secondry-color text-center mt-3 lg:w-8/10 lg:mx-auto lg:text-[1.375rem]">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                     exotic blooms, we
                     offer a wide variety of fresh.
-                </article>
+                </p>
             </div>
             <!-- plant card section  -->
             <div class="grid grid-cols-2 gap-3 mt-8 lg:grid-cols-4 lg:gap-4 lg:mt-12">
@@ -181,24 +181,61 @@
         </section>
 
         <!-- flower plant lover section  -->
-         <section class="w-[calc(100%-1rem)] mx-auto mt-[2.5rem] lg:w-[calc(100%-18.75rem)] lg:flex lg:gap-[3.75rem] lg:mt-[13rem]">
+        <section
+            class="w-[calc(100%-1rem)] mx-auto mt-[2.5rem] lg:w-[calc(100%-18.75rem)] lg:flex lg:gap-[3.75rem] lg:mt-[12rem] lg:h-auto">
             <!-- lover section image  -->
             <div class="lg:w-1/2">
-                <img src="./images/flower-store.png" alt="">
+                <img class="lg:w-full lg:h-full" src="./images/flower-store.png" alt="">
             </div>
             <!-- lover section information  -->
-            <div class="mt-4 lg:w-1/2 lg:flex lg:flex-col lg:justify-center">
+            <div class="mt-4 lg:w-1/2 lg:flex lg:flex-col lg:justify-center ">
                 <h2 class="text-xl font-bold noto-serif lg:text-[3.125rem]">Flower & Plants Lover</h2>
-                <ul class="list-disc pl-5 text-base secondry-color inter-serif mt-3 lg:text-[1.275rem]">
-                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
-                    offer a wide variety of fresh.</li>
-                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
-                    offer a wide variety of fresh.</li>
-                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
-                    offer a wide variety of fresh.</li>
+                <ul class="list-disc pl-5 text-base secondry-color inter-serif mt-3 lg:text-[1.275rem]  ">
+                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                        classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
+                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                        classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
+                    <li class="pb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                        classic roses to exotic blooms, we
+                        offer a wide variety of fresh.</li>
                 </ul>
             </div>
-         </section>
+        </section>
+        <!-- latest deal section  -->
+        <section class="w-[calc(100%-1rem)] mx-auto mt-[2.5rem] lg:w-[calc(100%-18.75rem)] lg:mt-[12rem]">
+            <!-- latest deal title and information  -->
+            <h3 class="font-bold text-xl noto-serif text-center lg:text-[3.5rem] "><span
+                    class="primary-color">Latest</span> Deals</h3>
+            <p class="text-base inter-serif secondry-color text-center mt-3 lg:w-8/10 lg:mx-auto lg:text-[1.375rem]">
+                Indulge your senses with the beauty and
+                fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                offer a wide variety of fresh.</p>
+            <!-- latest deals cards  -->
+            <div class="mt-12 lg:mt-[6rem] flex flex-col gap-4 lg:grid lg:grid-cols-[30%_70%] lg:gap-4">
+                <div class="flex flex-col gap-4 lg:gird lg:rows-2 lg:gap-4">
+                    <!-- card-1  -->
+                    <div
+                        class="w-full h-[11.53125rem] rounded-xl ovreflow-hidden bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/deal-bloom.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center gap-3">
+                        <h2 class="text-white font-bold text-xl noto-serif">60% Off | Bloom Plant</h2>
+                        <a class="text-base font-semibold text-white inter-serif underline underline-offset-5" href="#">Shop Now</a>
+                    </div>
+                    <!-- card-2  -->
+                    <div
+                        class="w-full h-[11.53125rem] rounded-xl ovreflow-hidden bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/deal-ana.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center gap-3">
+                        <h2 class="text-white font-bold text-xl noto-serif">30% Off | Ana Plant</h2>
+                        <a class="text-base font-semibold text-white inter-serif underline underline-offset-5" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <!-- card-3  -->
+                <div
+                    class="lg:h-auto w-full h-[11.53125rem] rounded-xl ovreflow-hidden bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/deal-zabo.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center gap-3">
+                    <h2 class="text-white font-bold text-xl noto-serif lg:text-4xl">25% Off | Zabo Plant</h2>
+                    <a class="text-base font-semibold text-white inter-serif lg:text-2xl underline underline-offset-5" href="#">Shop Now</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer section  -->
